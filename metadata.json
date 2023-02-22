@@ -1,0 +1,8 @@
+{
+  "name": "Airpods Battery",
+  "description": "Display Airpods battery percentage",
+  "uuid": "airpods@andersonlaverde.com",
+  "shell-version": [
+    "43"
+  ]
+}
