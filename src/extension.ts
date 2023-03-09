@@ -22,7 +22,8 @@ const GETTEXT_DOMAIN = 'my-indicator-extension';
 
 const { GObject, St } = imports.gi;
 
-const ExtensionUtils = imports.misc.extensionUtils;
+
+const ExtensionUtils = imports.gi.misc.extensionUtils;
 const Main = imports.ui.main;
 const PanelMenu = imports.ui.panelMenu;
 const PopupMenu = imports.ui.popupMenu;
@@ -48,6 +49,9 @@ const Indicator = GObject.registerClass(
 });
 
 class Extension {
+  _uuid: any;
+  _indicator: any;
+
   constructor(uuid) {
     this._uuid = uuid;
 

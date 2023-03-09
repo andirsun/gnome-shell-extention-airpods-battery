@@ -1,0 +1,16 @@
+{
+  "name": "airpods-gnome",
+  "version": "1.0.0",
+  "description": "Gnome shell extention to display the battery percentage of Airpods on the top panel.",
+  "main": "extension.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@gi-types/gjs-environment": "^1.1.0",
+    "@gi-types/gobject2": "^2.72.1",
+    "@gi-types/gtk3": "^3.24.1"
+  }
+}

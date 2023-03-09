@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    // "target": "es2015",
+    // "strict": true,
+    // "outDir": "dist",
+    // "forceConsistentCasingInFileNames": true,
+    // "downlevelIteration": true,
+    // "lib": [ "es2015" ],
+    // "pretty": true,
+    // "sourceMap": true,
+    // "declaration": true,
+    // "removeComments": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true
+
+    // Tells TypeScript to read JS files, as
+    // normally they are ignored as source files
+    "allowJs": true,
+    // Generate d.ts files
+    "declaration": true,
+    // This compiler run should
+    // only output d.ts files
+    "emitDeclarationOnly": true,
+    // Types should go into this directory.
+    // Removing this would place the .d.ts files
+    // next to the .js files
+    "outDir": "dist",
+    // go to js file when using IDE functions like
+    // "Go to Definition" in VSCode
+    "declarationMap": true,
+    "types": [
+      "@gi-types/gjs-environment",
+      "src/gjs.d.ts"
+    ]
+    // "strictNullChecks": true ,
+    // "exactOptionalPropertyTypes": true
+  },
+  "include": [
+    "src/*.ts"
+  ]
+}
